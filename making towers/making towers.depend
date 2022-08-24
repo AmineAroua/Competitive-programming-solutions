@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1658262330 source:c:\users\jojo\documents\cpp\making towers\main.cpp
+	<bits/stdc++.h>
+	<vector>
+
