@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+using namespace std ;
+
+int main()
+{
+    string s;
+    cin>>s;
+
+    // baaabbacddc
+    string t = "";
+    t+=s[0];
+    for(int i = 1 ; i < s.size() ; i++)
+    {
+        // s[i] =
+        if(s[i] == t.back())
+        {
+            t.pop_back();
+        }
+        // s[i] !=
+        else
+            t+=s[i];
+    }
+    cout<<t;
+}
